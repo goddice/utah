@@ -21,7 +21,9 @@ class GenLight : public Light
 {
 protected:
     void SetViewportParam(int lightID, ColorA ambient, ColorA intensity, Point4 pos ) const;
-    static float Shadow(Ray ray, float t_max=BIGFLOAT);
+    static float Shadow(Ray ray, float t_max=BIGFLOAT) {
+        return 1.0f;
+    }
 };
  
 //-------------------------------------------------------------------------------
