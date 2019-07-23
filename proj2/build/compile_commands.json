@@ -1,0 +1,49 @@
+[
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/lodepng/lodepng.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/lodepng/lodepng.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/lodepng/lodepng.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/main.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/main.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/main.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/sphere.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/sphere.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/sphere.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/tinyxml/tinystr.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinystr.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinystr.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/tinyxml/tinyxml.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxml.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxml.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/tinyxml/tinyxmlerror.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxmlerror.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxmlerror.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/tinyxml/tinyxmlparser.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxmlparser.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/tinyxml/tinyxmlparser.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj2/build",
+  "command": "/usr/local/bin/clang++   -I../src  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj2.dir/src/xmlload.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj2/src/xmlload.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj2/src/xmlload.cpp"
+}
+]

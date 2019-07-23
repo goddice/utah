@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="utah-cg-proj1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utah-cg-proj1">
+				<Option output="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/utah-cg-proj1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 utah-cg-proj1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utah-cg-proj1/fast">
+				<Option output="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/utah-cg-proj1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 utah-cg-proj1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyAlphaDistribution.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyBVH.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyColor.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyCore.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyGL.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyHairFile.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyHeap.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyIPoint.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyLightingGrid.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyMatrix.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyPoint.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyPointCloud.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyQuat.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cySampleElim.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cySpatial.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyString.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyTimer.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyTriMesh.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/objects.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/scene.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/sphere.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlerror.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlparser.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/viewport.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/xmlload.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/xmlload.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
