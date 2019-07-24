@@ -24,19 +24,17 @@ public:
     virtual Color Shade(const Ray &ray, const HitInfo &hInfo, const LightList &lights) const {
         Color res(0, 0, 0);
         for (const auto& light : lights) {
+            Color lightColor = light->Illuminate(hInfo.p, hInfo.N);
             if (light->IsAmbient()) {
-                res += light->Illuminate(hInfo.p, hInfo.N);
+                res += lightColor * diffuse;
             }
             else {
                 Point3 L = -light->Direction(hInfo.p);
                 Point3 R = -ray.dir;
-                if (L.Dot(hInfo.N) > 0 && R.Dot(hInfo.N) > 0) {
-                    Point3 H = (L + R).GetNormalized();
-                    float s = pow(max(H.Dot(hInfo.N), 0), glossiness);
-                    float lamb = L.Dot(hInfo.N);
-                    Color lightColor = light->Illuminate(hInfo.p, hInfo.N);
-                    res += diffuse * lamb * lightColor + specular * s * lightColor;
-                }
+                Point3 H = (L + R).GetNormalized();
+                float s = pow(max(H.Dot(hInfo.N), 0), glossiness);
+                float lamb = max(L.Dot(hInfo.N), 0);
+                res += diffuse * lamb * lightColor + specular * s * lightColor;
             }
         }
         res.ClampMin();

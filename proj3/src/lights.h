@@ -14,7 +14,10 @@
 #define _LIGHTS_H_INCLUDED_
  
 #include "scene.h"
- 
+#include "render.h"
+
+extern Node rootNode;
+bool trace(const Ray& ray, const Node* node, HitInfo& hInfo);
 //-------------------------------------------------------------------------------
  
 class GenLight : public Light
@@ -22,7 +25,15 @@ class GenLight : public Light
 protected:
     void SetViewportParam(int lightID, ColorA ambient, ColorA intensity, Point4 pos ) const;
     static float Shadow(Ray ray, float t_max=BIGFLOAT) {
-        return 1.0f;
+        // return 1.0;
+        HitInfo info;                
+        trace(ray, &rootNode, info);
+        if (info.z < t_max) {
+            return 0.0f;
+        }
+        else {
+            return 1.0f;
+        }
     }
 };
  

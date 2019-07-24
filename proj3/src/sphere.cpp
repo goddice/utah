@@ -16,6 +16,7 @@ bool Sphere::IntersectRay(const Ray& ray, HitInfo& hInfo, int hitSide) const {
             hInfo.front = true;
             hInfo.p = ray.p + t1 * ray.dir;
             hInfo.N = hInfo.p.GetNormalized();
+            hInfo.p += 1e-4 * hInfo.N;
             return true;
         }
         else {
@@ -25,6 +26,7 @@ bool Sphere::IntersectRay(const Ray& ray, HitInfo& hInfo, int hitSide) const {
                 hInfo.front = true;
                 hInfo.p = ray.p + t2 * ray.dir;
                 hInfo.N = hInfo.p.GetNormalized();
+                hInfo.p += 1e-4 * hInfo.N;
                 return true;
             }
             else {
@@ -37,11 +39,5 @@ bool Sphere::IntersectRay(const Ray& ray, HitInfo& hInfo, int hitSide) const {
 //-------------------------------------------------------------------------------
 // Viewport Methods for various classes
 //-------------------------------------------------------------------------------
-void Sphere::ViewportDisplay(const Material *mtl) const
-{
-    static GLUquadric *q = nullptr;
-    if ( q == nullptr ) {
-        q = gluNewQuadric();
-    }
-    gluSphere(q,1,50,50);
+void Sphere::ViewportDisplay(const Material *mtl) const {
 }

@@ -1,0 +1,55 @@
+[
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/src/main.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj3/src/main.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj3/src/main.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/src/render.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj3/src/render.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj3/src/render.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/src/sphere.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj3/src/sphere.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj3/src/sphere.cpp"
+},
+
+{
+  "directory": "/home/goddice/Dropbox/goddice/courses/utah/proj3/build",
+  "command": "/usr/local/bin/clang++   -I../src -I../, -I../../extern  -g   -std=gnu++17 -o CMakeFiles/utah-cg-proj3.dir/src/xmlload.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj3/src/xmlload.cpp",
+  "file": "/home/goddice/Dropbox/goddice/courses/utah/proj3/src/xmlload.cpp"
+}
+]
