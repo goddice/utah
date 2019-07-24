@@ -1,24 +1,26 @@
 #include <iostream>
 #include "render.h"
 
-bool trace(const Ray& ray, const Node* node, HitInfo& hInfo) {
+void trace(const Ray& ray, Node* node, HitInfo& hInfo, bool hitBack) {
     const Object* obj = node->GetNodeObj();
 
     Ray local_ray = node->ToNodeCoords(ray);
     bool res = false;
 
 	if (obj) {
-		if (obj->IntersectRay(local_ray, hInfo)) {
-			hInfo.node = node;
-            node->FromNodeCoords(hInfo);
-			res |= true;
-		}
+        float z = hInfo.z;
+		obj->IntersectRay(local_ray, hInfo, hitBack ? HIT_FRONT_AND_BACK : HIT_FRONT);
+        if (hInfo.z < z) {
+            hInfo.node = node;
+        }
 	}
 	for (int i = 0; i < node->GetNumChild(); ++i) {
-		res |= trace(local_ray, node->GetChild(i), hInfo);
+        const Node* prev = hInfo.node;
+		trace(local_ray, node->GetChild(i), hInfo, hitBack);
+        if (hInfo.node != prev) {
+            node->GetChild(i)->FromNodeCoords(hInfo);
+        }
 	}
-
-    return res;
 }
 
 void render() {
@@ -42,7 +44,8 @@ void render() {
             ray.p = camera.pos;
             ray.dir = base + (0.5f + i) * dx + (0.5f + j) * dy - camera.pos;
             ray.Normalize();
-            if (trace(ray, &rootNode, info)) {
+            trace(ray, &rootNode, info, false);
+            if (info.node) {
                 img[i + j * w] = Color24(info.node->GetMaterial()->Shade(ray, info, lights));
                 // img[i + j * w] = Color24{255, 255, 255};
             }

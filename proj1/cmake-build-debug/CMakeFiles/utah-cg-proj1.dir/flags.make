@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/goddice/Dropbox/goddice/courses/utah/proj1/src 
+CXX_INCLUDES = -I/home/goddice/Dropbox/goddice/courses/utah/proj1/src -I/home/goddice/Dropbox/goddice/courses/utah/proj1/, -I/home/goddice/Dropbox/goddice/courses/utah/proj1/../extern 
 

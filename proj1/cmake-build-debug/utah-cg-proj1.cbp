@@ -35,6 +35,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/src"/>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/,"/>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/../extern"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -59,6 +61,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/src"/>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/,"/>
+					<Add directory="/home/goddice/Dropbox/goddice/courses/utah/proj1/../extern"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -86,67 +90,85 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyAlphaDistribution.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyAlphaDistribution.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyBVH.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyBVH.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyColor.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyColor.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyCore.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyCore.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyGL.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyGL.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyHairFile.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyHairFile.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyHeap.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyHeap.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyIPoint.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyIPoint.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyLightingGrid.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyLightingGrid.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyMatrix.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyMatrix.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyPoint.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyPoint.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyPointCloud.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyPointCloud.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyQuat.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyQuat.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cySampleElim.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cySampleElim.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cySpatial.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cySpatial.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyString.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyString.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyTimer.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyTimer.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/cyCodeBase/cyTriMesh.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/cyCodeBase/cyTriMesh.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.cpp">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/objects.h">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.h">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp">
+			<Option target="utah-cg-proj1"/>
+		</Unit>
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/main.cpp">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
 		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/scene.h">
@@ -155,25 +177,7 @@
 		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/sphere.cpp">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.cpp">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.h">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.cpp">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.h">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlerror.cpp">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlparser.cpp">
-			<Option target="utah-cg-proj1"/>
-		</Unit>
-		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/viewport.cpp">
+		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/sphere.h">
 			<Option target="utah-cg-proj1"/>
 		</Unit>
 		<Unit filename="/home/goddice/Dropbox/goddice/courses/utah/proj1/src/xmlload.cpp">

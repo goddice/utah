@@ -53,6 +53,9 @@ int main(int argc, char** argv) {
 		exit(1);
 	} */
     LoadScene("box.xml");
+    
+    std::cout << "#lights: " << lights.size() << std::endl;
+
     RayTracing();
     renderImage.SaveImage("box.png");
     renderImage.SaveZImage("box_z.png");

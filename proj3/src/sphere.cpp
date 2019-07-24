@@ -11,28 +11,28 @@ bool Sphere::IntersectRay(const Ray& ray, HitInfo& hInfo, int hitSide) const {
     }
     else {
         float t1 = (-b - sqrt(det)) / a;
-        if (t1 > 0 && t1 < hInfo.z) {
-            hInfo.z = t1; //abs((ray.p + t1 * ray.dir).GetNormalized().Dot(ray.dir));
-            hInfo.front = true;
-            hInfo.p = ray.p + t1 * ray.dir;
-            hInfo.N = hInfo.p.GetNormalized();
-            hInfo.p += 1e-4 * hInfo.N;
-            return true;
+        float t2 = (-b + sqrt(det)) / a;
+        if (t1 > t2) {
+            std::swap(t1, t2);
         }
-        else {
-            float t2 = (-b + sqrt(det)) / a;
-            if (t2 > 0 && t2 < hInfo.z) {
-                hInfo.z = t2; // abs((ray.p + t2 * ray.dir).GetNormalized().Dot(ray.dir));
-                hInfo.front = true;
-                hInfo.p = ray.p + t2 * ray.dir;
-                hInfo.N = hInfo.p.GetNormalized();
-                hInfo.p += 1e-4 * hInfo.N;
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
+        float tmin = min(t1, t2);
+        float tmax = max(t1, t2);
+
+        if (hitSide != 1) {
+			if (hInfo.z > tmax && tmax > 0.001) {
+				hInfo.z = tmax;
+				hInfo.p = ray.p + tmax * ray.dir;
+				hInfo.N = hInfo.p;
+			}
+		}
+		if (hitSide != 0) {
+			if (hInfo.z > tmin && tmin > 0.001) {
+				hInfo.z = tmin;
+				hInfo.p = ray.p + tmin * ray.dir;
+				hInfo.N = hInfo.p;
+			}
+		}
+		return true;
     }
 }
 

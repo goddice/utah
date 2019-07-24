@@ -34,7 +34,7 @@ public:
                 Point3 H = (L + R).GetNormalized();
                 float s = pow(max(H.Dot(hInfo.N), 0), glossiness);
                 float lamb = max(L.Dot(hInfo.N), 0);
-                res += diffuse * lamb * lightColor + specular * s * lightColor;
+                res += diffuse * lamb * lightColor + specular * lamb * s * lightColor;
             }
         }
         res.ClampMin();

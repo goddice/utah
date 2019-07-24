@@ -123,32 +123,167 @@ utah-cg-proj1/fast:
 	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/build
 .PHONY : utah-cg-proj1/fast
 
-src/lodepng/lodepng.o: src/lodepng/lodepng.cpp.o
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.o: home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o
 
-.PHONY : src/lodepng/lodepng.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.o
 
 # target to build an object file
-src/lodepng/lodepng.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o
-.PHONY : src/lodepng/lodepng.cpp.o
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o
 
-src/lodepng/lodepng.i: src/lodepng/lodepng.cpp.i
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.i: home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i
 
-.PHONY : src/lodepng/lodepng.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.i
 
 # target to preprocess a source file
-src/lodepng/lodepng.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.i
-.PHONY : src/lodepng/lodepng.cpp.i
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i
 
-src/lodepng/lodepng.s: src/lodepng/lodepng.cpp.s
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.s: home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s
 
-.PHONY : src/lodepng/lodepng.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.s
 
 # target to generate assembly for a file
-src/lodepng/lodepng.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.s
-.PHONY : src/lodepng/lodepng.cpp.s
+home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.o: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.o
+
+# target to build an object file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.i: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.i
+
+# target to preprocess a source file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.s: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.s
+
+# target to generate assembly for a file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.o: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.o
+
+# target to build an object file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.i: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.i
+
+# target to preprocess a source file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.s: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.s
+
+# target to generate assembly for a file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.o: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.o
+
+# target to build an object file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.i: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.i
+
+# target to preprocess a source file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.s: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.s
+
+# target to generate assembly for a file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.o: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.o
+
+# target to build an object file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.i: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.i
+
+# target to preprocess a source file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i
+
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.s: home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s
+
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.s
+
+# target to generate assembly for a file
+home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s
+.PHONY : home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/sphere.o: src/sphere.cpp.o
 
@@ -176,141 +311,6 @@ src/sphere.s: src/sphere.cpp.s
 src/sphere.cpp.s:
 	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.s
 .PHONY : src/sphere.cpp.s
-
-src/tinyxml/tinystr.o: src/tinyxml/tinystr.cpp.o
-
-.PHONY : src/tinyxml/tinystr.o
-
-# target to build an object file
-src/tinyxml/tinystr.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o
-.PHONY : src/tinyxml/tinystr.cpp.o
-
-src/tinyxml/tinystr.i: src/tinyxml/tinystr.cpp.i
-
-.PHONY : src/tinyxml/tinystr.i
-
-# target to preprocess a source file
-src/tinyxml/tinystr.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.i
-.PHONY : src/tinyxml/tinystr.cpp.i
-
-src/tinyxml/tinystr.s: src/tinyxml/tinystr.cpp.s
-
-.PHONY : src/tinyxml/tinystr.s
-
-# target to generate assembly for a file
-src/tinyxml/tinystr.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.s
-.PHONY : src/tinyxml/tinystr.cpp.s
-
-src/tinyxml/tinyxml.o: src/tinyxml/tinyxml.cpp.o
-
-.PHONY : src/tinyxml/tinyxml.o
-
-# target to build an object file
-src/tinyxml/tinyxml.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o
-.PHONY : src/tinyxml/tinyxml.cpp.o
-
-src/tinyxml/tinyxml.i: src/tinyxml/tinyxml.cpp.i
-
-.PHONY : src/tinyxml/tinyxml.i
-
-# target to preprocess a source file
-src/tinyxml/tinyxml.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.i
-.PHONY : src/tinyxml/tinyxml.cpp.i
-
-src/tinyxml/tinyxml.s: src/tinyxml/tinyxml.cpp.s
-
-.PHONY : src/tinyxml/tinyxml.s
-
-# target to generate assembly for a file
-src/tinyxml/tinyxml.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.s
-.PHONY : src/tinyxml/tinyxml.cpp.s
-
-src/tinyxml/tinyxmlerror.o: src/tinyxml/tinyxmlerror.cpp.o
-
-.PHONY : src/tinyxml/tinyxmlerror.o
-
-# target to build an object file
-src/tinyxml/tinyxmlerror.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o
-.PHONY : src/tinyxml/tinyxmlerror.cpp.o
-
-src/tinyxml/tinyxmlerror.i: src/tinyxml/tinyxmlerror.cpp.i
-
-.PHONY : src/tinyxml/tinyxmlerror.i
-
-# target to preprocess a source file
-src/tinyxml/tinyxmlerror.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.i
-.PHONY : src/tinyxml/tinyxmlerror.cpp.i
-
-src/tinyxml/tinyxmlerror.s: src/tinyxml/tinyxmlerror.cpp.s
-
-.PHONY : src/tinyxml/tinyxmlerror.s
-
-# target to generate assembly for a file
-src/tinyxml/tinyxmlerror.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.s
-.PHONY : src/tinyxml/tinyxmlerror.cpp.s
-
-src/tinyxml/tinyxmlparser.o: src/tinyxml/tinyxmlparser.cpp.o
-
-.PHONY : src/tinyxml/tinyxmlparser.o
-
-# target to build an object file
-src/tinyxml/tinyxmlparser.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o
-.PHONY : src/tinyxml/tinyxmlparser.cpp.o
-
-src/tinyxml/tinyxmlparser.i: src/tinyxml/tinyxmlparser.cpp.i
-
-.PHONY : src/tinyxml/tinyxmlparser.i
-
-# target to preprocess a source file
-src/tinyxml/tinyxmlparser.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.i
-.PHONY : src/tinyxml/tinyxmlparser.cpp.i
-
-src/tinyxml/tinyxmlparser.s: src/tinyxml/tinyxmlparser.cpp.s
-
-.PHONY : src/tinyxml/tinyxmlparser.s
-
-# target to generate assembly for a file
-src/tinyxml/tinyxmlparser.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.s
-.PHONY : src/tinyxml/tinyxmlparser.cpp.s
-
-src/viewport.o: src/viewport.cpp.o
-
-.PHONY : src/viewport.o
-
-# target to build an object file
-src/viewport.cpp.o:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o
-.PHONY : src/viewport.cpp.o
-
-src/viewport.i: src/viewport.cpp.i
-
-.PHONY : src/viewport.i
-
-# target to preprocess a source file
-src/viewport.cpp.i:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.i
-.PHONY : src/viewport.cpp.i
-
-src/viewport.s: src/viewport.cpp.s
-
-.PHONY : src/viewport.s
-
-# target to generate assembly for a file
-src/viewport.cpp.s:
-	$(MAKE) -f CMakeFiles/utah-cg-proj1.dir/build.make CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.s
-.PHONY : src/viewport.cpp.s
 
 src/xmlload.o: src/xmlload.cpp.o
 
@@ -348,27 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... utah-cg-proj1"
 	@echo "... edit_cache"
-	@echo "... src/lodepng/lodepng.o"
-	@echo "... src/lodepng/lodepng.i"
-	@echo "... src/lodepng/lodepng.s"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.o"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.i"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.s"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.o"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.i"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.s"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.o"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.i"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.s"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.o"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.i"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.s"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.o"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.i"
+	@echo "... home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/sphere.o"
 	@echo "... src/sphere.i"
 	@echo "... src/sphere.s"
-	@echo "... src/tinyxml/tinystr.o"
-	@echo "... src/tinyxml/tinystr.i"
-	@echo "... src/tinyxml/tinystr.s"
-	@echo "... src/tinyxml/tinyxml.o"
-	@echo "... src/tinyxml/tinyxml.i"
-	@echo "... src/tinyxml/tinyxml.s"
-	@echo "... src/tinyxml/tinyxmlerror.o"
-	@echo "... src/tinyxml/tinyxmlerror.i"
-	@echo "... src/tinyxml/tinyxmlerror.s"
-	@echo "... src/tinyxml/tinyxmlparser.o"
-	@echo "... src/tinyxml/tinyxmlparser.i"
-	@echo "... src/tinyxml/tinyxmlparser.s"
-	@echo "... src/viewport.o"
-	@echo "... src/viewport.i"
-	@echo "... src/viewport.s"
 	@echo "... src/xmlload.o"
 	@echo "... src/xmlload.i"
 	@echo "... src/xmlload.s"

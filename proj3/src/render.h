@@ -7,7 +7,7 @@
 #include "sphere.h"
 #include "xmlload.h"
 
-bool trace(const Ray& ray, const Node* node, HitInfo& hInfo);
+void trace(const Ray& ray, Node* node, HitInfo& hInfo, bool hitBack);
 void render();
 void monitor();
 

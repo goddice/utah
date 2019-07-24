@@ -17,7 +17,7 @@
 #include "render.h"
 
 extern Node rootNode;
-bool trace(const Ray& ray, const Node* node, HitInfo& hInfo);
+void trace(const Ray& ray, Node* node, HitInfo& hInfo, bool hitBack);
 //-------------------------------------------------------------------------------
  
 class GenLight : public Light
@@ -27,12 +27,12 @@ protected:
     static float Shadow(Ray ray, float t_max=BIGFLOAT) {
         // return 1.0;
         HitInfo info;                
-        trace(ray, &rootNode, info);
-        if (info.z < t_max) {
+        trace(ray, &rootNode, info, true);
+        if (info.node != nullptr && info.z < t_max) {
             return 0.0f;
         }
         else {
-            return 1.0f;
+            return 1;
         }
     }
 };

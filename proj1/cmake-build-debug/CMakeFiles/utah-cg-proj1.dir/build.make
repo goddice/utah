@@ -57,22 +57,87 @@ include CMakeFiles/utah-cg-proj1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/utah-cg-proj1.dir/flags.make
 
-CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o: ../src/lodepng/lodepng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.cpp
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o: /home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp
 
-CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.cpp > CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.i
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp > CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.i
 
-CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/lodepng/lodepng.cpp -o CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.s
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.s
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o: /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp > CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.i
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.s
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o: /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp > CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.i
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.s
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o: /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp > CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.i
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.s
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o: /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp > CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.i
+
+CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp -o CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.s
+
+CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
+CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/main.cpp
+
+CMakeFiles/utah-cg-proj1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/main.cpp > CMakeFiles/utah-cg-proj1.dir/src/main.cpp.i
+
+CMakeFiles/utah-cg-proj1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/main.cpp -o CMakeFiles/utah-cg-proj1.dir/src/main.cpp.s
 
 CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
 CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o: ../src/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/sphere.cpp
 
 CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.i: cmake_force
@@ -82,71 +147,6 @@ CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.i: cmake_force
 CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/sphere.cpp -o CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.s
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o: ../src/tinyxml/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.cpp
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.cpp > CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.i
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinystr.cpp -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.s
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o: ../src/tinyxml/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.cpp
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.cpp > CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.i
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxml.cpp -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.s
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o: ../src/tinyxml/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlerror.cpp
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlerror.cpp > CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.i
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlerror.cpp -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.s
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o: ../src/tinyxml/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlparser.cpp
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlparser.cpp > CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.i
-
-CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/tinyxml/tinyxmlparser.cpp -o CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.s
-
-CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
-CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o: ../src/viewport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goddice/Dropbox/goddice/courses/utah/proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o -c /home/goddice/Dropbox/goddice/courses/utah/proj1/src/viewport.cpp
-
-CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goddice/Dropbox/goddice/courses/utah/proj1/src/viewport.cpp > CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.i
-
-CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goddice/Dropbox/goddice/courses/utah/proj1/src/viewport.cpp -o CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.s
 
 CMakeFiles/utah-cg-proj1.dir/src/xmlload.cpp.o: CMakeFiles/utah-cg-proj1.dir/flags.make
 CMakeFiles/utah-cg-proj1.dir/src/xmlload.cpp.o: ../src/xmlload.cpp
@@ -163,25 +163,25 @@ CMakeFiles/utah-cg-proj1.dir/src/xmlload.cpp.s: cmake_force
 
 # Object files for target utah-cg-proj1
 utah__cg__proj1_OBJECTS = \
-"CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o" \
+"CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o" \
 "CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o" \
-"CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o" \
-"CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o" \
-"CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o" \
-"CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o" \
-"CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o" \
 "CMakeFiles/utah-cg-proj1.dir/src/xmlload.cpp.o"
 
 # External object files for target utah-cg-proj1
 utah__cg__proj1_EXTERNAL_OBJECTS =
 
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/lodepng/lodepng.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/lodepng/lodepng.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinystr.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxml.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlerror.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/home/goddice/Dropbox/goddice/courses/utah/extern/tinyxml/tinyxmlparser.cpp.o
+utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/main.cpp.o
 utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/sphere.cpp.o
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinystr.cpp.o
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxml.cpp.o
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlerror.cpp.o
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/tinyxml/tinyxmlparser.cpp.o
-utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/viewport.cpp.o
 utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/src/xmlload.cpp.o
 utah-cg-proj1: CMakeFiles/utah-cg-proj1.dir/build.make
 utah-cg-proj1: /usr/lib/x86_64-linux-gnu/libOpenGL.so
