@@ -1,3 +1,0 @@
-/home/goddice/Dropbox/goddice/courses/utah/proj2/build/CMakeFiles/rebuild_cache.dir
-/home/goddice/Dropbox/goddice/courses/utah/proj2/build/CMakeFiles/utah-cg-proj2.dir
-/home/goddice/Dropbox/goddice/courses/utah/proj2/build/CMakeFiles/edit_cache.dir

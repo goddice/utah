@@ -52,12 +52,12 @@ int main(int argc, char** argv) {
 		std::cerr << "Usage: " << argv[0] << " scene.xml\n";
 		exit(1);
 	} */
-    LoadScene("proj3/box.xml");
+    LoadScene("proj4/box.xml");
     
     std::cout << "#lights: " << lights.size() << std::endl;
 
     RayTracing();
-    renderImage.SaveImage("proj3/box.png");
-    renderImage.SaveZImage("proj3/box_z.png");
+    renderImage.SaveImage("proj4/box.png");
+    renderImage.SaveZImage("proj4/box_z.png");
     return 0;    
 }
