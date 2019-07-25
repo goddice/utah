@@ -1,4 +1,5 @@
 #include "objects.h"
+#include "scene.h"
 
 bool Sphere::IntersectRay(const Ray& ray, HitInfo& hInfo, int hitSide) const {
     float a = ray.dir.LengthSquared();
@@ -110,4 +111,37 @@ bool TriObj::IntersectTriangle( const Ray &ray, HitInfo &hInfo, int hitSide, uns
     }
 
     return false;
+}
+
+bool Box::IntersectRay(const Ray& ray, float t_max) const {
+    float t0 = EPS;
+    float t1 = t_max;
+    float tmin, tmax, tymin, tymax, tzmin, tzmax;
+    float divx = 1.0f / ray.dir.x;
+    float divy = 1.0f / ray.dir.y;
+    float divz = 1.0f / ray.dir.z;
+    int sx = (divx < 0);
+    int sy = (divy < 0);
+    int sz = (divz < 0);
+    Point3 bounds[2] = {pmin, pmax};
+
+    tmin = (bounds[sx].x - ray.p.x) * divx;
+    tmax = (bounds[1 - sx].x - ray.p.x) * divx;
+    tymin = (bounds[sy].y - ray.p.y) * divy;
+    tymax = (bounds[1 - sy].y - ray.p.y) * divy;
+    if ( (tmin > tymax) || (tymin > tmax) )
+        return false;
+    if (tymin > tmin)
+        tmin = tymin;
+    if (tymax < tmax)
+        tmax = tymax;
+    tzmin = (bounds[sz].z - ray.p.z) * divz;
+    tzmax = (bounds[1 - sz].z - ray.p.z) * divz;
+    if ( (tmin > tzmax) || (tzmin > tmax) )
+        return false;
+    if (tzmin > tmin)
+        tmin = tzmin;
+    if (tzmax < tmax)
+        tmax = tzmax;
+    return ( (tmin < t1) && (tmax > t0) );
 }

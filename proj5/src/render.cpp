@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono>
 #include "render.h"
 
 float fresnel_reflection(const Ray& ray, const Point3& N, const float& ior, bool front) {
@@ -59,9 +60,11 @@ void trace(const Ray& ray, Node* node, HitInfo& hInfo, bool hitBack) {
 
 	if (obj) {
         float z = hInfo.z;
-		obj->IntersectRay(local_ray, hInfo, hitBack ? HIT_FRONT_AND_BACK : HIT_FRONT);
-        if (hInfo.z < z) {
-            hInfo.node = node;
+        if(!use_bb || obj->GetBoundBox().IntersectRay(local_ray, BIGFLOAT)) {
+            obj->IntersectRay(local_ray, hInfo, hitBack ? HIT_FRONT_AND_BACK : HIT_FRONT);
+            if (hInfo.z < z) {
+                hInfo.node = node;
+            }
         }
 	}
 	for (int i = 0; i < node->GetNumChild(); ++i) {
@@ -109,6 +112,7 @@ void render() {
 }
 
 void monitor() {
+    auto start = std::chrono::steady_clock::now();
     while (!renderImage.IsRenderDone()) {
         int n = (long long)renderImage.GetNumRenderedPixels() * 100 / renderImage.GetHeight() / renderImage.GetWidth();
         std::cout << "\r|";
@@ -120,6 +124,8 @@ void monitor() {
             std::cout << " ";
         }
         std::cout << "|" << n << "%";
-    } 
-    std::cout << "\n";   
+    }
+    std::chrono::duration<double> time_spend = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start);
+    
+    std::cout << "\nRendering time: " << time_spend.count() << " sec" << "\n";   
 }

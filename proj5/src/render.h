@@ -5,6 +5,8 @@
 #include "objects.h"
 #include "xmlload.h"
 
+const bool use_bb = true;
+
 Ray reflect(const Ray& ray, const HitInfo &hInfo);
 Ray refract(const Ray& ray, const HitInfo& hInfo, const float& ior);
 float fresnel_reflection(const Ray& ray, const Point3& N, const float& ior, bool front);
